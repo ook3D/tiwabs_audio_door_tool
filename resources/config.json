@@ -8,56 +8,56 @@
     },
     {
       "name" : "24/7 Door",
-      "soundSet": "hash_f1e8d9fe",
-      "Params": "hash_0246d335",
+      "soundSet": "door_swing_glass_and_metal_shop_beep",
+      "Params": "dtp_default_swing",
       "value": 0.7
     },
     {
       "name" : "Pushed Door",
-      "soundSet": "hash_7f11a20c",
-      "Params": "hash_0246d335",
+      "soundSet": "door_swing_exit_wood_no_mech",
+      "Params": "dtp_default_swing",
       "value": 0.7
     },
     {
       "name" : "Elevator Door",
-      "soundSet": "hash_37d314bf",
-      "Params": "hash_1ec7576e",
+      "soundSet": "door_sliding_lift_fib",
+      "Params": "dtp_fib_elevator_door",
       "value": 0.7
     },
     {
       "name" : "Jail Door",
       "soundSet": "hash_0d2cd7d4",
-      "Params": "hash_0246d335",
+      "Params": "dtp_default_swing",
       "value": 0.7
     },
     {
       "name" : "Sliding Door",
-      "soundSet": "hash_c9e95a9a",
-      "Params": "hash_25b9f39f",
+      "soundSet": "door_slide_manual",
+      "Params": "dtp_sliding_door_interior",
       "value": 0.7
     },
     {
       "name" : "Normal Gate",
-      "soundSet": "hash_d5377a40",
-      "Params": "hash_c85140b1",
+      "soundSet": "door_garage",
+      "Params": "dtp_mp_garage_door",
       "value": 0.7
     },
     {
       "name" : "Slide Gate",
-      "soundSet": "hash_f0d1de2a",
-      "Params": "hash_8c484a48",
+      "soundSet": "door_sliding_metal_gate_bars",
+      "Params": "dtp_default_sliding_horizontal",
       "value": 0.7
     },
     {
       "name" : "Slide Gate 2",
-      "soundSet": "hash_a526a46e",
-      "Params": "hash_8c484a48",
+      "soundSet": "door_garage_heavy_slider",
+      "Params": "dtp_default_sliding_horizontal",
       "value": 0.7
     },
     {
       "name" : "Up-Down Gate",
-      "soundSet": "hash_0ca57a12",
-      "Params": "hash_943a667a",
+      "soundSet": "door_garage_ls_customs",
+      "Params": "dtp_default_sliding_vertical",
       "value": 0.7
     }
   ]
