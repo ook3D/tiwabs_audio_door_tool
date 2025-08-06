@@ -87,13 +87,13 @@ app.on("activate", () => {
 
 const doorXML = (data: []) => {
   return data.reduce((result: string, item: { doorName: string; doorHash: string; soundSet: string; Params: string; value: number }) => {
-   return result + `\n    <Item type="Door" ntOffset="0">\n      <Name>d_${item.doorName}</Name>\n      <SoundSet>${item.soundSet}</SoundSet>\n      <Params>${item.Params}</Params>\n      <Unk1 value="${item.value}" />\n    </Item>`
+   return result + `\n    <Item type="DoorAudioSettings" ntOffset="0">\n      <Name>d_${item.doorName}</Name>\n      <Sounds>${item.soundSet}</Sounds>\n      <TuningParams>${item.Params}</TuningParams>\n      <MaxOcclusion value="${item.value}" />\n    </Item>`
   }, "")
 }
 
 const doorModelXML = (data: []) => {
   return data.reduce((result: string, item: { doorName: string; doorHash: string; soundName: string }) => {
-   return result + `\n    <Item type="DoorModel" ntOffset="0">\n      <Name>dasl_${item.doorHash}</Name>\n      <Door>d_${item.doorName}</Door>\n    </Item>`
+   return result + `\n    <Item type="DoorAudioSettingsLink" ntOffset="0">\n      <Name>dasl_${item.doorHash}</Name>\n      <Door>d_${item.doorName}</Door>\n    </Item>`
   }, "")
 }
 
