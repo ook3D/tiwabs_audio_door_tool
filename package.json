@@ -79,7 +79,7 @@
   "config": {
     "forge": {
       "packagerConfig": {
-        "name": "Tiwabs Audio Door Tool",
+        "name": "tiwabs-audio-door-tool",
         "executableName": "tiwabs-audio-door-tool",
         "icon": "assets/icon",
         "extraResource": [
@@ -113,7 +113,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "Electron Starter"
+            "name": "tiwabs-audio-door-tool"
           }
         },
         {
